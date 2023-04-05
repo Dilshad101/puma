@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Kanit:wght@700;800;900&family=Montserrat:wght@600;800&family=Oxygen&display=swap');
+body{
+    margin: 0;
+}
+.topbar{
+    
+    height: 45px;
+    padding-top: 1px;
+    width: 100%;
+    background-color: #756848;
+}
+.topbartext{
+    
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 583px;
+    font-size: 13px;
+    color: #fff;
+    
+}
+a:link{
+    color: rgb(0, 0, 0);
+}
+#clickhere:link{
+    padding-left: 10px;
+
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 77px;
+    background-color: rgb(6 5 5 / 92%);
+}.logodiv{
+    height: 77px;
+    width: 88px;
+}
+.logo{
+    padding-top: 9px;
+    padding-left: 12px;
+    height: 66px;
+    width: 75px;
+    cursor: pointer;
+}
+.navbartextdiv{
+    height: 77px;
+    width: 788px;
+    margin-left: -17px;
+ 
+}
+.navtext{
+    padding-top: 15px;
+    list-style: none;
+    font-family: kanit;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+   
+    
+   
+}
+.navelist{
+    float: left;
+    padding-right: 30px; 
+    text-decoration: none;
+
+}
+.nave:link{
+    
+    color: #fff;
+    text-decoration: none;
+}
+.override{
+    color: white;
+}
+.searchdiv{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 16px;
+    height: 39px;
+    width: 206px;
+    position: relative;
+}
+.img-icon-search{
+    position:absolute;
+    left: 0;
+}
+.searchicon{
+    margin-left: 3px;
+    height: 35px;
+    margin-top: 3px;
+    cursor: pointer; 
+   
+    
+}
+
+.search{
+    margin-top: 2px;
+   background-color: rgba(24, 23, 23, 0.92); ;
+    height: 33px;
+    width: 161px;
+    border: none;
+    padding-top: 1px;
+    padding-left: 43px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #9c9c9c;
+    
+}
+.search:focus{
+    
+    border:  1px solid #9c9c9c;
+    outline: none;
+
+}
+
+.interaction{
+    height: 77px;
+    width: 207px;
+   
+}
+.inter{
+    margin-top: 18px;
+    background-color: rgba(24, 23, 23, 0.92); ;
+    border-radius: 18px 18px;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(24, 23, 23, 0.92); ;;
+}
+.inter:hover{
+    background-color: #242421;
+}
+.icons{
+    height: 20px;
+    width: 20px;
+}
+.midbar1{
+    height: 86px;
+    width: 100%;
+    background-color: rgb(214 214 214);
+}
+.midbartext{
+    text-align: center;
+    font-family: Oxygen;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 19px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+}
+.shopnow{
+    margin-left: 720px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-family: Oxygen;
+    font-size: 13px;
+}
+
+.shop{
+    margin-top: 0px;
+}
+.midbar2{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)) ,url(pumagalary/ogbackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    height: 500px;
+    
+    width: 100%;
+
+}
+.midbar2text{
+    margin-left: 790px;
+    height: 500px;
+    width: 50%;
+}
+.midbar2head{
+    padding-left: 47px;
+    font-family: Oxygen;
+    padding-top: 72px;
+    color: #fff;
+    letter-spacing: 1.1px;
+    font-size: 37px;
+    margin-bottom: 0px;
+}
+.midbar2para{
+    color: #fff;
+    margin-top: 9px;
+   padding-left: 313px;
+   font-family: Oxygen;
+   font-weight: 500;
+   font-size: 23px;
+}
+.shopbt{
+    margin-left: 540px;
+    height: 45px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: Oxygen;
+    cursor: pointer;
+}
+.midbar3{
+    display: flex;
+    margin-top: 32px;
+    height: 525px;
+    width: 100%;
+    background-color: rgb(23, 17, 63);
+}
+.midbar3pic{
+    height: 525px;
+    width: 50%;
+    display: flex;
+}
+.midbar3text{
+    height: 525px;
+    width: 50%;
+    line-height: 55px;
+}
+.midbar3head{
+    padding-left: 275px;
+    padding-top: 141px;
+    margin-bottom: 0px;
+    font-size: 46px;
+    font-family: Barlow Condensed;
+    color: #fff;
+    letter-spacing: 2.1px;
+}
+.midbar3head2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 410px;
+    font-size: 46px;
+    font-family: Barlow Condensed;
+    color: #fff;
+    letter-spacing: 2.1px;
+
+}
+.midbar3para{
+    color: #fff;
+    padding-left: 463px;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    font-family: 'Oxygen';
+    margin-top: 0px;
+}
+.midbar4{
+    height: 100px;
+    width: 100%;
+   
+}
+.midbar4head{
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-top: 39px;
+    font-family:Barlow Condensed;
+    letter-spacing: 2.1px;
+}
+.midbar5{
+    display: flex;
+    margin-left: 30px;
+    width: 1460px;
+    height:350px;  
+}
+.option1{
+    display: flex;
+    height: 350px;
+    width: 340px;
+    background-color: #756848;
+    margin-right: 20px;
+
+}
+
+.opt{
+    height: 350px;
+    width: 340px;
+    cursor: pointer;
+}
+.midbar6{
+    display: flex;
+    height: 100px;
+    width: 1460px;
+    margin-left: 20px;
+    border-bottom: 3px solid rgba(95, 88, 88, 0.664);
+}
+.option1para{
+    height: 100px;
+    width: 340px;
+    margin-right: 30px;
+   
+}
+.para{
+    font-weight: 600;
+    font-family: Oxygen;
+    font-size: 14px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.para2{
+    font-weight: 600;
+    font-family: Oxygen;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#span11{
+padding-left: 48px;
+}
+#span12{
+    padding-left: 22px;
+}
+#span13{
+    padding-left: 77px;
+}
+#span14{
+    padding-left: 55px;
+}
+.midbar7{
+    height: 150px;
+    width: 100%;
+}
+.midbar7head{
+    padding-left: 583px;
+    padding-top: 42px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.midbar7head2{
+    margin-top: 10px;
+    padding-left: 702px;
+    font-family:Oxygen;
+    font-weight: 300;
+}
+.midbar8{
+    display: flex;
+    margin-left: 30px;
+    height: 700px;
+    width: 1420px;
+}
+.midbar8part1{
+    display: flex;
+    height: 700px;
+    width: 700px;
+    background-color: #756848;
+}
+.midbar8part2{
+    display: flex;
+    margin-left: 20px;
+    height: 700px;
+    width: 700px;
+    background-color: #756848;
+}
+.midbar9{
+    display: flex;
+    height: 120px;
+    width: 100%;
+}
+.midbar9p1{
+    height: 120px;
+    width: 50%;
+}
+.bar9text{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding-left:275px ;
+    margin-bottom: 0px;
+}
+.midbar9p2{
+    height: 120px;
+    width: 50%;
+}
+.bar9para{
+    margin-top: 4px;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding-left:310px ;
+}
+.shopbtn2{
+    width: 260px;
+    height: 39px;
+ margin-left: 240px;
+ background-color: black;
+ color: #fff;
+ font-family: Oxygen;
+ font-weight: 700;
+ cursor: pointer;
+}
+.midbar10{
+    height: 120px;
+    width: 100%;
+}
+.midbar10head{
+    text-align: center;
+    padding-top: 30px;
+    font-family:Barlow Condensed;
+    letter-spacing: 2.1px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.midbar10para{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    margin-top: 5px;
+    letter-spacing: 1.1px;
+}
+.midbar11{
+    display: flex;
+height: 470px;
+width: 1460px;
+display: flex;
+margin-left: 30px;
+}
+.innerdiv11{
+    display: flex;
+    margin-right: 15px;
+    height: 470px;
+    width: 480px;
+    cursor: pointer;
+}
+.midbar12{
+    display: flex;
+    height: 145px;
+    width: 1460px;
+    margin-left: 30px;
+}
+.innerdiv12{
+    margin-right:2px;
+    height: 145px;
+    width: 33%;
+
+}
+.innerhead12{
+    text-align: center;
+    letter-spacing: 2.1px;
+    font-size: 23px;
+    font-family:Barlow Condensed ;
+    margin-bottom: 0px;
+}
+.innerpara12{
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: 1.1px;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.shopbtn3{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 240px;
+    font-family:Oxygen ;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.midbar13{
+    height: 530px;
+    width: 100%;
+   background-image: url(pumagalary/bar13bgphoto.webp);
+   background-size: cover;
+}
+.midbar13head{
+    padding-top: 193px;
+    padding-left: 53px;
+    font-size: 41px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.1px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.midbar13para{
+  margin-top: 0px;
+    padding-left: 55px;
+    font-size: 23px;
+    font-family:Oxygen;
+    font-weight: 100;
+    color: #fff;
+}
+.shopbtn4{
+    margin-left: 55px;
+    height: 45px;
+    width: 130px;
+    font-family: Oxygen;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid rgb(223, 219, 210);
+    cursor: pointer;
+}
+.midbar14{
+    display:flex;
+    height: 480px;
+    width: 100%;
+    background-color: #171718;
+}
+.innerdiv14{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 420px;
+    width: 470px;
+    border-top: 1px solid rgba(182, 171, 171, 0.745);
+
+    display: flex;
+}
+.ul14{
+    list-style-type: none;
+    margin-left: -36px;
+   
+}
+.lihead{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.li14{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #9c9c9c;
+    line-height: 27px;
+    cursor: pointer;
+}
+.li14:hover{
+    color: #fff;
+}
+.ul14p2{
+    list-style-type: none;
+    margin-top: 90px;
+    margin-left: -36px;   
+}
+.ul14-2{
+    padding-left: 80px;
+}
+.li14p2{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #9c9c9c;
+    line-height: 30px;
+    cursor: pointer;
+}
+.li14p2:hover{
+    color: #fff;
+}
+.ul14p2-1{
+    padding-left: 190px;
+}
+.innerdiv14head{
+    margin-bottom: 20px;
+    padding-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    color: #fff;
+}
+.email{
+    margin-left:0px;
+    margin-top: 4px;
+    height: 56px;
+    width: 380px;
+    background-color:#171718 ;
+    border: 1px solid rgba(182, 171, 171, 0.745);
+    border-radius: 2px;
+    font-size: 15px;
+}
+.email:hover{
+    border-color: #fff;
+}
+.next{
+    height: 58px;
+    width: 50px;
+    color: #fff;
+    background-color:#171718 ;
+    border: 1px solid rgba(182, 171, 171, 0.745); 
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.next:hover{
+    border-color: rgb(255, 255, 255);
+}
+#language{
+    margin-top: 30px;
+    height: 56px;
+    width: 440px;
+    background-color:#171718 ;
+    border: 1px solid rgba(182, 171, 171, 0.745);
+    font-size: 15px;
+    color: #ffffff;
+}
+.exploreapp{
+    height: 100px;
+    width: 500px;
+    background-color: #756848
+}
+.innerdiv14head2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    color: #fff;
+}
+.apps{
+    border: 1px solid white;
+    background-color: #171718;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.apps:hover{
+    border-color: #fff;
+}
+.margin{
+    margin-left: 20px;
+}
+.midbar15{
+    height: 110px;
+    width: 100%;
+    background-color: #171718;
+}
+.innerbar15{
+    display: flex;
+    margin-left: 30px;
+    height: 110px;
+    width: 1460px;
+    border-top: 1px solid #9c9c9c;
+}
+.innerbar15div{
+    height: 110px;
+    width: 33%;
+}
+.icon{
+    margin-top:30px ;
+    color: #fff;
+    font-size: 26px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 12px;
+    font-family: Oxygen;
+    padding-top: 20px;
+    padding-left: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #9c9c9c;
+}
+.banks{
+    margin-top: 10px;
+    margin-left: 90px;
+ height: 60px;
+    
+}
